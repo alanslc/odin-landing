@@ -1,5 +1,5 @@
 * {
-   box-sizing: border-box;   
+   box-sizing: border-box;
 }
 
 body {
@@ -122,4 +122,26 @@ button.signup {
    border-width: 4px;
    border-radius: 15px;
    margin-bottom: 8px;
+}
+
+.quote-section {
+   background-color: #E5E7EB;
+}
+
+.quote-section .container {
+   padding: 80px 36px;
+}
+
+.quote {
+   font-size: 36px;
+   font-weight: 300;
+   font-style: italic;
+   color: #1F2937;
+}
+
+.quote-person {
+   text-align: right;
+   font-size: 24px;
+   font-weight: bold;
+   padding-right: 36px;
 }
