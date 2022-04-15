@@ -6,17 +6,19 @@ body {
 }
 
 .container {
-   max-width: 1200px;
+   max-width: 900px;
    margin: 0 auto;
 }
 
-header, .hero {
+header,
+.hero {
    background-color: #1F2937;
    color: #F9FAF8;
-   margin:0;
-   padding:0;
+   margin: 0;
+   padding: 0;
 
 }
+
 header {
    height: 60px;
 }
@@ -39,7 +41,12 @@ header .container {
 
 .navbar li {
    margin-left: 16px;
-   font-weight: 300;
+}
+
+.navbar li a {
+   text-decoration: none;
+   font-size: 18px;
+   color: #E5E7EB;
 }
 
 .hero {
@@ -47,5 +54,34 @@ header .container {
 }
 
 .hero .container {
+   display: flex;
+   max-height: 250px;
+   padding-top: 50px;
+   gap: 50px;
+}
 
+.title {
+   font-size: 48px;
+   font-weight: bolder;
+}
+
+.subtext,
+button.signup {
+   font-size: 18px;
+   color: #E5E7EB;
+}
+
+.subtext {
+   margin-bottom: 16px;
+}
+
+button.signup {
+   background-color: #3882F6;
+   padding: 4px 20px;
+   border-style: none;
+   border-radius: 3px;
+}
+
+.pic img {
+   max-height: 250px;
 }
