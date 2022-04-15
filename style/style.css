@@ -14,7 +14,7 @@ body {
 }
 
 header,
-.hero {
+.hero,footer {
    background-color: #1F2937;
    color: #F9FAF8;
    margin: 0;
@@ -22,8 +22,8 @@ header,
 
 }
 
-header {
-   height: 60px;
+header,footer {
+   height: 90px;
 }
 
 header .container {
@@ -68,8 +68,7 @@ header .container {
    font-weight: bolder;
 }
 
-.subtext,
-button.signup {
+.subtext{
    font-size: 18px;
    color: #E5E7EB;
 }
@@ -78,11 +77,15 @@ button.signup {
    margin-bottom: 16px;
 }
 
-button.signup {
+button.signup,
+button.call-signup {
+   font-size: 18px;
+   font-weight: 500;
+   color: #F9FAF8;
    background-color: #3882F6;
-   padding: 4px 20px;
+   padding: 8px 36px;
    border-style: none;
-   border-radius: 3px;
+   border-radius: 8px;
 }
 
 .pic img {
@@ -144,4 +147,48 @@ button.signup {
    font-size: 24px;
    font-weight: bold;
    padding-right: 36px;
+}
+
+.call-action .container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   min-height: 350px;
+   padding: 0;
+}
+
+.action-box {
+   flex: 1;
+   background-color: #3882F6;
+
+   display: flex;
+   justify-content: space-between;
+
+   padding: 48px 96px;
+   border-radius: 8px;
+   align-items: center;
+}
+
+.call-title {
+   font-size: 24px;
+   font-weight: bold;
+   color: #F9FAF8;
+   margin-bottom: 4px;
+}
+
+.call-text {
+   font-size: 18px;
+   color: #E5E7EB;
+}
+
+button.call-signup {
+   border-style: solid;
+   border-color: #F9FAF8;
+}
+
+footer {
+   text-align: center;
+   vertical-align: middle;
+   font-size: 18px;
 }
