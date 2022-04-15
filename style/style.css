@@ -14,7 +14,8 @@ body {
 }
 
 header,
-.hero,footer {
+.hero,
+footer {
    background-color: #1F2937;
    color: #F9FAF8;
    margin: 0;
@@ -22,7 +23,8 @@ header,
 
 }
 
-header,footer {
+header,
+footer {
    height: 90px;
 }
 
@@ -68,7 +70,7 @@ header .container {
    font-weight: bolder;
 }
 
-.subtext{
+.subtext {
    font-size: 18px;
    color: #E5E7EB;
 }
@@ -188,7 +190,12 @@ button.call-signup {
 }
 
 footer {
+   display: flex;
    text-align: center;
-   vertical-align: middle;
+   align-items: center;
    font-size: 18px;
+}
+
+footer .container {
+   vertical-align: middle;
 }
